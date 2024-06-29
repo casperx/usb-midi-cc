@@ -1,0 +1,12 @@
+.program ws2812
+
+.side_set 1
+
+.define public P 3
+
+.origin st
+
+    jmp !x zr side 1 ; output start high
+    jmp    st side 1 ; output middle high
+zr: nop       side 0 ; output middle low
+st: out x 1   side 0 ; output end low
