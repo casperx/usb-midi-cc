@@ -1,9 +1,8 @@
 #pragma once
 
-#if defined(EMULATED)
-
 #include <cstdint>
 
+#if defined(EMULATED)
 static const int32_t gen_samps[] = {
   2450000,
   2501521,
