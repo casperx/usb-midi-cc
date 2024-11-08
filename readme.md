@@ -5,6 +5,10 @@ Map Air pressure from TM7711 sensor into MIDI channel 0, MIDI CC 2.
 ![device picture 1](doc/img/20241109_031341.webp)
 ![device picture 2](doc/img/20241109_031404.webp)
 
+### Working device
+
+https://github.com/user-attachments/assets/03819590-ca50-4554-8af0-49113f557651
+
 Based on Raspberry Pi Pico.
 
 Store following configuration in Flash.
