@@ -6,6 +6,7 @@ Map Air pressure from TM7711 sensor into MIDI channel 0, MIDI CC 2.
 
 ![device picture 1](doc/img/20241109_031341.webp)
 ![device picture 2](doc/img/20241109_031404.webp)
+![device picture 2](doc/img/20241109_134642.webp)
 
 ### Working device
 
