@@ -2,6 +2,8 @@
 
 Map Air pressure from TM7711 sensor into MIDI channel 0, MIDI CC 2.
 
+> Can be used with VST wind instrument.
+
 ![device picture 1](doc/img/20241109_031341.webp)
 ![device picture 2](doc/img/20241109_031404.webp)
 
@@ -24,9 +26,9 @@ To configure the device, please go [here](https://casperx.github.io/usb-midi-cc-
 
 ![settings ui](doc/img/ui-20241109-035551.png)
 
-On the left, you'll have live display of signal values from the device.
+On the left, you'll have real time display of signal values from the device.
 It shows two lines, green and blue. Blue line is the MIDI CC value currently output from device.
-Green line is the preview of your mapping. If you press apply, it will become the same  value.
+Green line is the preview of your mapping curve. If you press apply, it will become the same  value.
 
 Press save to persist settings to device's Flash. It'll be loaded on startup.
 
