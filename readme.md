@@ -2,6 +2,15 @@
 
 Map Air pressure from TM7711 sensor into MIDI channel 0, MIDI CC 2.
 
+Based on Raspberry Pi Pico.
+
+Following configuration can be adjusted and persist in Flash.
+
+- MIDI channel (default 0: Channel 1)
+- MIDI CC (default 2: Breath Controller)
+- Sensor Input and MIDI CC Output range
+- Mapping curve (50 points max.)
+
 > Can be used with VST wind instrument.
 
 ![device picture 1](doc/img/20241109_031341.webp)
@@ -11,15 +20,6 @@ Map Air pressure from TM7711 sensor into MIDI channel 0, MIDI CC 2.
 ### Working device
 
 https://github.com/user-attachments/assets/03819590-ca50-4554-8af0-49113f557651
-
-Based on Raspberry Pi Pico.
-
-Store following configuration in Flash.
-
-- MIDI channel
-- MIDI CC
-- Sensor Input and MIDI CC Output range
-- Mapping curve (50 points max.)
 
 To configure the device, please go [here](https://casperx.github.io/usb-midi-cc-settings/)
 
@@ -35,4 +35,4 @@ Press save to persist settings to device's Flash. It'll be loaded on startup.
 
 ![settings ui signals](doc/img/ui-20241109-040929.png)
 
-You can calibrate the device by adjusting input range until it lies inside the display frame.
+You can calibrate the device by adjusting input range until it lies inside the display.
